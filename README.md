@@ -1,4 +1,3 @@
-DAA-LAB
 PRACTICAL 1:
 
 Summary :
