@@ -33,3 +33,13 @@ Linear Search works on both sorted and unsorted arrays. Binary Search works only
 Conclusion :
 
 Linear Search is simple and works on both sorted and unsorted arrays. Binary Search is faster but works only on sorted arrays. The time analysis shows that Binary Search takes less time than Linear Search. Therefore, Binary Search is better for large sorted data, while Linear Search is suitable for small or unsorted data.
+
+PRACTICAL-4
+
+Summary
+
+Factorial of a number was calculated using two methods: Iterative and Recursive. The iterative method uses a loop to multiply numbers from 1 to n, while the recursive method calls itself with n-1 until it reaches the base case of 0 or 1. Both methods produce the same factorial result.
+
+Conclusion
+
+The experiment helped understand the difference between iteration and recursion. The iterative method uses less memory, while the recursive method provides a simpler and more mathematical approach. Both methods have O(n) time complexity and can be used to calculate factorial effectively.
