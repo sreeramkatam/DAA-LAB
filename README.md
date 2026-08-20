@@ -53,3 +53,13 @@ Factorial of a number was calculated using two methods: Iterative and Recursive.
 Conclusion
 
 The experiment helped understand the difference between iteration and recursion. The iterative method uses less memory, while the recursive method provides a simpler and more mathematical approach. Both methods have O(n) time complexity and can be used to calculate factorial effectively.
+
+PRACTICAL-7
+
+Summary
+
+The Making Change Problem was implemented using Dynamic Programming. The program stores previously calculated results and uses them to find the minimum number of coins required for the given amount.
+
+Conclusion
+
+Dynamic Programming provides an efficient solution to the Making Change Problem by avoiding repeated calculations. It is useful when the problem contains overlapping subproblems and optimal substructure.
