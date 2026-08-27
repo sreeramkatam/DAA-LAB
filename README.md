@@ -73,3 +73,13 @@ The Knapsack problem is a Dynamic Programming problem used to select items with 
 Conclusion
 
 The Knapsack problem demonstrates how Dynamic Programming can efficiently solve optimization problems by breaking them into smaller subproblems. The method avoids repeated calculations and finds the maximum possible profit while satisfying the capacity constraint.
+
+PRACTICAL-6
+
+Summary
+
+Matrix Chain Multiplication uses Dynamic Programming and a matrix to find the optimal order of multiplying matrices. It avoids unnecessary calculations by storing the minimum cost of smaller matrix chains.
+
+Conclusion
+
+The Matrix Chain Multiplication problem demonstrates how Dynamic Programming can optimize matrix multiplication. By checking different possible parenthesizations and storing their minimum costs, we can find the most efficient multiplication order with O(n³) time complexity.
