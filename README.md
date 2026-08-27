@@ -63,3 +63,13 @@ The Making Change Problem was implemented using Dynamic Programming. The program
 Conclusion
 
 Dynamic Programming provides an efficient solution to the Making Change Problem by avoiding repeated calculations. It is useful when the problem contains overlapping subproblems and optimal substructure.
+
+PRACTICAL-5
+
+Summary
+
+The Knapsack problem is a Dynamic Programming problem used to select items with maximum total value while keeping the total weight within the given capacity. Each item can either be selected or not selected. A DP table is used to store the best possible value for different capacities and items.
+
+Conclusion
+
+The Knapsack problem demonstrates how Dynamic Programming can efficiently solve optimization problems by breaking them into smaller subproblems. The method avoids repeated calculations and finds the maximum possible profit while satisfying the capacity constraint.
