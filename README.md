@@ -83,3 +83,15 @@ Matrix Chain Multiplication uses Dynamic Programming and a matrix to find the op
 Conclusion
 
 The Matrix Chain Multiplication problem demonstrates how Dynamic Programming can optimize matrix multiplication. By checking different possible parenthesizations and storing their minimum costs, we can find the most efficient multiplication order with O(n³) time complexity.
+
+PRACTICAL-8
+
+Summary:
+
+BFS and DFS are fundamental graph traversal algorithms, each employing a distinct strategy to explore nodes within a graph. BFS systematically explores nodes level by level, utilizing a queue to ensure all neighbors at the current depth are visited before proceeding to the next level. This makes it ideal for finding the shortest path in unweighted graphs. DFS, conversely, explores as deeply as possible along one path before backtracking, typically using a stack (or recursion) to manage its search. DFS is often used for tasks like cycle detection, topological sorting, and navigating tree-like structures.
+
+Conclusion:
+
+Both BFS and DFS are powerful tools in algorithm design, with their choice depending heavily on the specific problem at hand. Understanding their underlying mechanics – the queue for BFS's breadth-first exploration and the stack for DFS's depth-first exploration – is crucial for efficiently solving a wide range of computational problems, from pathfinding and network analysis to artificial intelligence and puzzle-solving.
+
+
