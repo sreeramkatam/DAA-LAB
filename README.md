@@ -94,4 +94,17 @@ Conclusion:
 
 Both BFS and DFS are powerful tools in algorithm design, with their choice depending heavily on the specific problem at hand. Understanding their underlying mechanics – the queue for BFS's breadth-first exploration and the stack for DFS's depth-first exploration – is crucial for efficiently solving a wide range of computational problems, from pathfinding and network analysis to artificial intelligence and puzzle-solving.
 
+PRACTICAL-9
 
+Summary:
+
+We implemented Prim's algorithm, a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted, undirected graph. The algorithm starts from an arbitrary node and iteratively adds the cheapest edge that connects a vertex in the MST to a vertex outside the MST, until all vertices are included.
+
+Two different implementations were provided and tested:
+
+First Implementation (prim function): This version used string labels for nodes (e.g., 'A', 'B', 'C') and correctly identified the MST for a connected graph, as well as the MST for the connected component of a disconnected graph.
+Second Implementation (prims_algorithm function): This version used integer labels for nodes (e.g., 0, 1, 2) and also successfully calculated the MST and its total weight for its example graph.
+
+Conclusion:
+
+Both implementations successfully demonstrated Prim's algorithm by correctly identifying the edges forming the Minimum Spanning Tree and calculating their total weights for the given example graphs. The outputs confirm that the algorithm efficiently finds the MST by progressively adding the lowest-cost edges without forming cycles, ensuring that all reachable vertices are connected with the minimum possible total edge weight
