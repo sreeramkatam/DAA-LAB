@@ -108,3 +108,13 @@ Second Implementation (prims_algorithm function): This version used integer labe
 Conclusion:
 
 Both implementations successfully demonstrated Prim's algorithm by correctly identifying the edges forming the Minimum Spanning Tree and calculating their total weights for the given example graphs. The outputs confirm that the algorithm efficiently finds the MST by progressively adding the lowest-cost edges without forming cycles, ensuring that all reachable vertices are connected with the minimum possible total edge weight
+
+PRACTICAL-10
+
+Summary
+
+Kruskal’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph. It sorts all edges in ascending order of weight and selects the smallest edge that does not form a cycle. This process continues until the MST contains V − 1 edges, where V is the number of vertices.
+
+Conclusion
+
+Kruskal’s Algorithm efficiently finds the minimum-cost spanning tree by choosing the cheapest available edges while avoiding cycles. It is simple and effective, especially for sparse graphs. The algorithm commonly uses the Disjoint Set (Union-Find) data structure to detect cycles efficiently. Its time complexity is O(E log E), where E is the number of edges.
