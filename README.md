@@ -131,3 +131,14 @@ Space Complexity: \(O(n^2)\)
 Conclusion
 
 The Floyd–Warshall algorithm was successfully implemented in Python to calculate the shortest distances between all pairs of vertices. It efficiently updates the distance matrix by comparing existing paths with paths through intermediate vertices.
+
+PRACTICAL -12
+
+Summary
+
+The Travelling Salesman Problem (TSP) finds the minimum-cost route that visits every city exactly once and returns to the starting city.
+
+Conclusion
+
+The Travelling Salesman Problem was successfully implemented in Python using the brute-force method. The program examines all possible routes and identifies the route with the minimum total travel cost.
+
